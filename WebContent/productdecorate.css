@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+.productbox {
+    background-color:#ffffff;
+	padding:10px;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0 8px 6px -6px  #999;
+	   -moz-box-shadow: 0 8px 6px -6px  #999;
+	        box-shadow: 0 8px 6px -6px #999;
+}
+img {
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+}
+.producttitle {
+    font-weight:bold;
+	padding:5px 0 5px 0;
+}
+
+.productprice {
+	border-top:1px solid #dadada;
+	padding-top:5px;
+}
+.productdetails{
+    border-top:1px solid #dadada;
+	padding-top:7px;
+}
+
+.pricetext {
+	font-weight:bold;
+	font-size:1.4em;
+}
